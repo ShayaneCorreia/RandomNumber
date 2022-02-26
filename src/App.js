@@ -12,7 +12,7 @@ const App = () => {
     return (
         <SafeAreaView style={style.container}>
             <View style={{marginBottom:30}}>
-                <Text style={{ color: '#FFF', fontWeight: 'bold', fontSize:35}}>Welcome!</Text>
+                <Text style={{ color: '#FFF', fontWeight: 'bold', fontSize:40}}>Welcome!</Text>
             </View>
         <Text style={style.number}>{number}</Text>
         <TouchableOpacity onPress={handleNumber} style={style.button}>
